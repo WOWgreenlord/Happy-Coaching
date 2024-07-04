@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+@import url(https://db.onlinewebfonts.com/c/35e06493aed2f14d19a0b8d735c06b62?family=AvertaStd-Black);
 
 * {
   margin: 0;
@@ -18,6 +19,7 @@ a {
 button {
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 /* Header */
@@ -58,7 +60,6 @@ header {
   border-radius: 4px;
   background-color: rgba(32, 173, 150, 1);
   color: rgba(255, 255, 255, 1);
-  cursor: pointer;
   font-family: inherit;
   font-size: 14px;
   line-height: 18.2px;
@@ -66,6 +67,97 @@ header {
 
 .navigation__link-burger {
   display: none;
+}
+
+/* Main */
+
+.hero {
+  max-width: 1440px;
+  height: 703px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.hero__background {
+  width: 1440px;
+  height: 677px;
+  display: flex;
+  margin: 0 auto;
+  background-color: rgba(250, 248, 246, 1);
+  align-items: center;
+  position: relative;
+}
+
+.hero__content {
+  max-width: 545px;
+  height: 396px;
+  margin-left: 85px;
+}
+
+.content__subpar {
+  color: rgba(74, 85, 108, 1);
+  font-size: 16px;
+  line-height: 24px;
+}
+.content__header {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 86.4px;
+  color: rgba(51, 52, 97, 1);
+}
+.content__info {
+  font-size: 18px;
+  line-height: 28.8px;
+  color: rgba(74, 85, 108, 1);
+  padding: 18px 0;
+}
+
+.content__button {
+  width: 250px;
+  height: 42px;
+  border-radius: 10px;
+  background-color: rgba(32, 173, 150, 1);
+  font-family: inherit;
+  color: rgba(255, 255, 255, 1);
+}
+
+.hero__img {
+  position: absolute;
+  left: 812px;
+  top: 99px;
+}
+
+.hero__target {
+  width: 237px;
+  height: 104px;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 2px 2px 2px 1px rgba(111, 124, 144, 0.16);
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  z-index: 1;
+  left: 699px;
+  top: 55px;
+}
+
+.target__content-title {
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(51, 52, 97, 1);
+  font-family: "AvertaStd-Black";
+}
+
+.target__content-info {
+  font-size: 12px;
+  line-height: 24px;
+  color: rgba(74, 85, 108, 1);
+}
+
+.hero__vector {
+  position: absolute;
+  left: 34px;
+  top: 53px;
 }
 
 /* Media */
